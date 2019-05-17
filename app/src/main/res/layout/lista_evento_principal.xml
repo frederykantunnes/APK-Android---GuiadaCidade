@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/edit_text"
+    android:padding="5dp"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/lista_evento_nome_prin"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:textColor="@color/cinza"
+        android:fontFamily="sans-serif-condensed"
+        android:textSize="22dp"
+        android:shadowColor="@color/cinzaclaro"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="2"
+
+
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/foto_local_evento_prin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="2dp"
+        />
+            <TextView
+                android:id="@+id/lista_evento_data_prin"
+                android:layout_width="wrap_content"
+                android:layout_gravity="right"
+                android:fontFamily="sans-serif-condensed"
+                android:layout_height="22dp"
+                android:textColor="@color/azul"
+                android:textStyle="bold"
+                android:textSize="13dp" />
+
+
+</LinearLayout>

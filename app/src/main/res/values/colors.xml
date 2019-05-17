@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#253031</color>
+    <color name="colorAccent">#303030</color>
+    <color name="branco">#fff</color>
+    <color name="preto">#000000</color>
+    <color name="transp">#00ffffff</color>
+    <color name="cinza">#515050</color>
+    <color name="cinzaclaro">#c4c4c4</color>
+    <color name="azul">#013758</color>
+</resources>

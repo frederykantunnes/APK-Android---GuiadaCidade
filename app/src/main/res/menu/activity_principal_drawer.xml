@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/hom"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_procurar"
+            android:icon="@drawable/searc"
+            android:title="Buscar Local" />
+        <item
+            android:id="@+id/nav_categorias"
+            android:icon="@drawable/catt"
+            android:title="Categorias" />
+        <item
+            android:id="@+id/nav_mapa"
+            android:icon="@drawable/placeholder"
+            android:title="Mapa da Cidade" />
+        <item
+            android:id="@+id/nav_eventos"
+            android:icon="@drawable/event"
+            android:title="Eventos na cidade" />
+    </group>
+    <group>
+        <item android:id="@+id/nav_radio87"
+            android:title="Rádio da Prefeitura"
+            android:icon="@drawable/radio"/>
+
+        <item android:id="@+id/nav_radio92"
+            android:title="Rádio Princesa 92.5 FM"
+            android:icon="@drawable/radio"/>
+    </group>
+    <group>
+        <item
+            android:id="@+id/nav_sobre"
+            android:icon="@drawable/information"
+            android:title="Sobre o APK" />
+        <item
+            android:id="@+id/nav_divulga"
+            android:icon="@drawable/megaphone"
+            android:title="Divulgar" />
+
+        <item
+            android:id="@+id/nav_comofunciona"
+            android:title="Como funciona?" />
+    </group>
+
+
+</menu>

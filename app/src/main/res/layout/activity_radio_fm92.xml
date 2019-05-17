@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="br.com.bitcodeti.guia.View.RadioFM92"
+    android:background="@color/preto">
+
+   <ImageView
+       android:layout_width="match_parent"
+       android:layout_height="100dp"
+       android:src="@drawable/guia_logo_dois"
+       android:layout_marginBottom="40dp"/>
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="RÁDIO Princesa 92.5 FM"
+       android:textSize="25sp"
+       android:textColor="@color/branco"
+       android:gravity="center"
+       android:layout_marginBottom="10dp"
+       />
+   <TextView
+       android:id="@+id/text_ouvindo_92"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Pode demorar um pouco para iniciar!"
+       android:textColor="@color/branco"
+       android:gravity="center"
+       android:layout_marginBottom="10dp"
+       android:visibility="invisible"
+       />
+   <Button
+   android:id="@+id/play_radio92"
+   android:layout_width="wrap_content"
+   android:layout_height="wrap_content"
+   android:text="   Ouvir   "
+       android:background="@color/branco"
+   />
+
+</LinearLayout>

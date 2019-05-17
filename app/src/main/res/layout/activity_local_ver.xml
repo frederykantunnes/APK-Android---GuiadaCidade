@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.com.bitcodeti.guia.View.LocalVer"
+    android:background="@color/branco"
+    android:orientation="vertical"
+    android:id="@+id/act_verlocal">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="10dp">
+    <ImageView
+        android:id="@+id/local_foto"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:background="@color/branco"
+        />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="185dp"
+            android:background="@color/azul"
+            android:padding="5dp"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/local_nome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Local"
+                android:fontFamily="sans-serif-condensed"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:textColor="@color/branco"/>
+            <TextView
+                android:id="@+id/local_endereco"
+                android:layout_width="match_parent"
+                android:fontFamily="sans-serif-condensed"
+                android:layout_height="wrap_content"
+                android:text="Endereco"
+                android:textStyle="italic"
+                android:textSize="14dp"
+                android:textColor="@color/branco"/>
+            <RatingBar
+                android:id="@+id/local_estrelas"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:layout_height="40dp"
+                android:numStars = "5"
+                android:layout_marginTop="-10dp"
+                android:scaleX="0.3"
+                android:scaleY="0.3"
+                android:layout_marginBottom="-10dp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="160dp"
+            android:gravity="center"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/circulo"
+            android:elevation="4dp">
+        <ImageButton
+            android:layout_width="30dp"
+            android:layout_gravity="center"
+            android:layout_height="30dp"
+            android:background="@drawable/pointer"
+            android:id="@+id/local_rota"
+            />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="40dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                >
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/information"
+                    />
+                <TextView
+                    android:id="@+id/local_descricao"
+                    android:layout_width="wrap_content"
+                    android:fontFamily="sans-serif-condensed"
+                    android:layout_height="wrap_content"
+                    android:text="Descricao"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    />
+            </LinearLayout>
+
+            <View
+                android:background="@color/cinzaclaro"
+                android:layout_width = "fill_parent"
+                android:layout_marginTop="5dp"
+                android:layout_height="1dip"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                >
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/icon_pf_celular"
+                    />
+                <TextView
+                    android:id="@+id/local_numero"
+                    android:layout_width="wrap_content"
+                    android:fontFamily="sans-serif-condensed"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="+55 83998416414"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"
+                    />
+
+                <Button
+                    android:id="@+id/local_btn_ligar"
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:layout_height="24dp"
+                    android:textColor="@color/cinzaclaro"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="Ligar"
+                    android:background="@color/branco"
+                    android:layout_marginLeft="40dp" />
+            </LinearLayout>
+            <View
+                android:background="@color/cinzaclaro"
+                android:layout_width = "fill_parent"
+                android:layout_marginTop="5dp"
+                android:layout_height="1dip"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                >
+                <ImageView
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/wifi"
+                    />
+                <TextView
+                    android:id="@+id/local_wifi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="Possui Wifi? SIM"
+                    android:layout_marginLeft="10dp"
+                    />
+            </LinearLayout>
+
+</LinearLayout>
+
+    </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+
+    <ImageView
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/branco"
+android:id="@+id/img_todo_local"
+android:visibility="invisible"/>
+
+</RelativeLayout>
